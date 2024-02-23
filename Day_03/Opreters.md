@@ -19,7 +19,7 @@ Arithmetic operators mathematical operations jaise addition, subtraction, multip
 Relational operators do operands ke values ko compare karne ke liye istemal hote hain.
 
 - **Equal to (==):** Do operands equal hain ya nahi check karta hai.
-- **Not equal to (!=):** Do operands equal nahi hain ya nahi check karta hai.
+- **Not equal to (!=):** Do operands equal nahi hain Tho True Return karta hai.
 - **Greater than (>):** Left operand right operand se bada hai ya nahi check karta hai.
 - **Less than (<):** Left operand right operand se chhota hai ya nahi check karta hai.
 - **Greater than or equal to (>=):** Left operand right operand se bada ya equal hai ya nahi check karta hai.
