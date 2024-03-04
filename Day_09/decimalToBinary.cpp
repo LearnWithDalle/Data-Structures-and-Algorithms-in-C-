@@ -7,13 +7,13 @@ int main()
     cout << "Enter a value of n: ";
     cin >> n;
     int ans = 0;
-    int a = 1;
+    int i = 1;
     while (n != 0)
     {
         int reminder = n % 2;
-        ans = (reminder * a) + ans;
+        ans = (reminder * i) + ans;
         n /= 2;
-        a *= 10;
+        i = i * 10;
     }
     cout << ans;
 }
