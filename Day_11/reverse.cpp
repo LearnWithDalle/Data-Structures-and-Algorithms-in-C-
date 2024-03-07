@@ -3,15 +3,17 @@ using namespace std;
 int main()
 {
     int n;
-    cout << " Enter the number which u Want to reverse: ";
+    cout << "Enter the Number of N: ";
     cin >> n;
+
     int temp = n;
     int rev = 0;
     while (temp != 0)
     {
-        int number = temp % 10;
-        rev = (rev * 10) + number;
+        int digit;
+        digit = temp % 10;
+        rev = (rev * 10) + digit;
         temp /= 10;
     }
-    cout << rev;
+    cout << "After Update the N value: " << rev << endl;
 }
